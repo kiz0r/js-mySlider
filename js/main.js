@@ -53,7 +53,7 @@ const mySlides = [
 const [prevBtn, nextBtn] = document.querySelectorAll('.btn');
 const [prevSlide, currSlide, nextSlide] = document.querySelectorAll('.slides');
 
-const mySlider = new Slider(mySlides, 2);
+const mySlider = new Slider(mySlides, 0);
 
 updateSlide(mySlider.currentSlide);
 
