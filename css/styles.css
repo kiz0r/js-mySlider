@@ -96,11 +96,6 @@ body {
 .currSlide > img {
   height: inherit;
   width: inherit;
-}
-
-.currSlide > img,
-.prevSlide > img,
-.nextSlide > img {
   object-fit: cover;
   pointer-events: none;
   transition: 1s ease all;
